@@ -1,11 +1,15 @@
 
 @media(min-width: 768px) {
+  .dflex {
+    display: flex;
+    flex-direction: row;
+  }
+
   nav {
     &.primary-navigation {
       margin: 0 auto;
-      display: block;
       background: #FEFEFE;
-      padding: 20px 0 5px 0;
+      padding: 10px 0 10px 0;
       text-align: center;
       font-size: 16px;
       box-shadow: 0 4px 2px -2px #ABABAB;
@@ -25,6 +29,7 @@
 
       li a {
         color: black;
+        margin-bottom: 8px;
       }
 
       li a:hover {
@@ -76,8 +81,14 @@
     }
     ul {
       padding: 0;
+      text-align: center;
       list-style-type: none;
+      margin: auto;
     }
+  }
+  .logo {
+    width: 100px;
+    margin-left: 100px;
   }
 
   a {
@@ -94,10 +105,14 @@
 }
 
 @media(max-width: 768px) {
-    nav {
+  .dflex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav {
     &.primary-navigation {
       margin: 0 auto;
-      display: block;
       background: #FEFEFE;
       padding: 5px 0 5px 0;
       text-align: center;
@@ -108,7 +123,6 @@
       ul li {
         list-style: none;
         margin: 0 auto;
-
         padding: 5px 0;
         position: relative;
         text-decoration: none;
@@ -171,8 +185,12 @@
     }
     ul {
       padding: 0;
-      list-style-type: none;
+      margin: inherit;
+      list-style-type: none ;
     }
+  }
+  .logo {
+    width: 100px;
   }
 
   a {
