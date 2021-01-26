@@ -1,9 +1,11 @@
 @media (min-width: 768px) {
+  .dflex {
+    display: flex;
+    flex-direction: row; }
   nav.primary-navigation {
     margin: 0 auto;
-    display: block;
     background: #FEFEFE;
-    padding: 20px 0 5px 0;
+    padding: 10px 0 10px 0;
     text-align: center;
     font-size: 16px;
     -webkit-box-shadow: 0 4px 2px -2px #ABABAB;
@@ -18,7 +20,8 @@
       text-align: center;
       font-family: 'Raleway', sans-serif; }
     nav.primary-navigation li a {
-      color: black; }
+      color: black;
+      margin-bottom: 8px; }
     nav.primary-navigation li a:hover {
       color: #BA7768; }
     nav.primary-navigation li:hover {
@@ -58,7 +61,12 @@
       transition: all 0.3s ease; }
   nav ul {
     padding: 0;
-    list-style-type: none; }
+    text-align: center;
+    list-style-type: none;
+    margin: auto; }
+  .logo {
+    width: 100px;
+    margin-left: 100px; }
   a {
     padding-bottom: 8px;
     text-decoration: none; }
@@ -69,9 +77,11 @@
     transition: all 0.5s ease; } }
 
 @media (max-width: 768px) {
+  .dflex {
+    display: flex;
+    flex-direction: row; }
   nav.primary-navigation {
     margin: 0 auto;
-    display: block;
     background: #FEFEFE;
     padding: 5px 0 5px 0;
     text-align: center;
@@ -127,7 +137,10 @@
       transition: all 0.3s ease; }
   nav ul {
     padding: 0;
+    margin: inherit;
     list-style-type: none; }
+  .logo {
+    width: 100px; }
   a {
     text-decoration: none;
     padding-bottom: 8px; }
