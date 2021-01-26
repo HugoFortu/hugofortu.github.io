@@ -1,63 +1,142 @@
-nav.primary-navigation {
-  margin: 0 auto;
-  display: block;
-  padding: 20px 0 0 0;
-  text-align: center;
-  font-size: 16px; }
-  nav.primary-navigation ul li {
-    list-style: none;
+@media (min-width: 768px) {
+  nav.primary-navigation {
     margin: 0 auto;
-    border-left: 2px solid #3ca0e7;
-    display: inline-block;
-    padding: 0 30px;
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Raleway', sans-serif; }
-  nav.primary-navigation li a {
-    color: black; }
-  nav.primary-navigation li a:hover {
-    color: #3ca0e7; }
-  nav.primary-navigation li:hover {
-    cursor: pointer; }
-  nav.primary-navigation ul li ul {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    padding-left: 0;
-    left: 0;
-    display: none;
-    background: white; }
-  nav.primary-navigation ul li:hover > ul,
-  nav.primary-navigation ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
     display: block;
-    min-width: 250px;
-    text-align: left;
-    padding-top: 20px;
-    -webkit-box-shadow: 0px 3px 5px -1px #ccc;
-            box-shadow: 0px 3px 5px -1px #ccc; }
-  nav.primary-navigation ul li ul li {
-    clear: both;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 20px;
-    border-style: none; }
-  nav.primary-navigation ul li ul li a:hover {
-    padding-left: 10px;
-    border-left: 2px solid #3ca0e7;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    background: #FEFEFE;
+    padding: 20px 0 5px 0;
+    text-align: center;
+    font-size: 16px;
+    -webkit-box-shadow: 0 4px 2px -2px #ABABAB;
+            box-shadow: 0 4px 2px -2px #ABABAB; }
+    nav.primary-navigation ul li {
+      list-style: none;
+      margin: 0 auto;
+      display: inline-block;
+      padding: 0 20px;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Raleway', sans-serif; }
+    nav.primary-navigation li a {
+      color: black; }
+    nav.primary-navigation li a:hover {
+      color: #BA7768; }
+    nav.primary-navigation li:hover {
+      cursor: pointer; }
+    nav.primary-navigation ul li ul {
+      padding: 0;
+      list-style-type: none;
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      padding-left: 0;
+      left: 0;
+      display: none;
+      background: #FEFEFE; }
+    nav.primary-navigation ul li:hover > ul,
+    nav.primary-navigation ul li ul:hover {
+      padding: 0;
+      list-style-type: none;
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      min-width: 250px;
+      text-align: left;
+      padding-top: 20px;
+      -webkit-box-shadow: 0px 3px 5px -1px #ccc;
+              box-shadow: 0px 3px 5px -1px #ccc; }
+    nav.primary-navigation ul li ul li {
+      clear: both;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 20px;
+      border-style: none; }
+    nav.primary-navigation ul li ul li a:hover {
+      padding-left: 10px;
+      border-left: 2px solid #3ca0e7;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+  nav ul {
+    padding: 0;
+    list-style-type: none; }
+  a {
+    padding-bottom: 8px;
+    text-decoration: none; }
+    a:hover {
+      color: #BA7768; }
+  ul li ul li a {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; } }
 
-a {
-  text-decoration: none; }
-  a:hover {
-    color: #3CA0E7; }
-
-ul li ul li a {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+@media (max-width: 768px) {
+  nav.primary-navigation {
+    margin: 0 auto;
+    display: block;
+    background: #FEFEFE;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    font-size: 16px;
+    -webkit-box-shadow: 0 4px 2px -2px #ABABAB;
+            box-shadow: 0 4px 2px -2px #ABABAB; }
+    nav.primary-navigation ul li {
+      list-style: none;
+      margin: 0 auto;
+      padding: 5px 0;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Raleway', sans-serif; }
+    nav.primary-navigation li a {
+      color: black; }
+    nav.primary-navigation li a:hover {
+      color: #BA7768; }
+    nav.primary-navigation li:hover {
+      cursor: pointer; }
+    nav.primary-navigation ul li ul {
+      padding: 0;
+      list-style-type: none;
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      padding-left: 0;
+      left: 0;
+      display: none;
+      background: #FEFEFE; }
+    nav.primary-navigation ul li:hover > ul,
+    nav.primary-navigation ul li ul:hover {
+      padding: 0;
+      list-style-type: none;
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      min-width: 250px;
+      text-align: left;
+      padding-top: 20px;
+      -webkit-box-shadow: 0px 3px 5px -1px #ccc;
+              box-shadow: 0px 3px 5px -1px #ccc; }
+    nav.primary-navigation ul li ul li {
+      clear: both;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 20px;
+      border-style: none; }
+    nav.primary-navigation ul li ul li a:hover {
+      padding-left: 10px;
+      border-left: 2px solid #3ca0e7;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+  nav ul {
+    padding: 0;
+    list-style-type: none; }
+  a {
+    text-decoration: none;
+    padding-bottom: 8px; }
+    a:hover {
+      color: #BA7768; }
+  ul li ul li a {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; } }
 
 body {
-  background-color: #FEFEFE; }
+  background-color: #FEFEFE;
+  margin: 0; }
