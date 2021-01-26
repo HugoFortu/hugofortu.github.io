@@ -7,7 +7,7 @@
     background: #FEFEFE;
     padding: 10px 0 10px 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-box-shadow: 0 4px 2px -2px #ABABAB;
             box-shadow: 0 4px 2px -2px #ABABAB; }
     nav.primary-navigation ul li {
@@ -85,7 +85,7 @@
     background: #FEFEFE;
     padding: 5px 0 5px 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-box-shadow: 0 4px 2px -2px #ABABAB;
             box-shadow: 0 4px 2px -2px #ABABAB; }
     nav.primary-navigation ul li {
@@ -150,6 +150,23 @@
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease; } }
 
+.banner-div {
+  width: 100%;
+  height: 600px;
+  overflow: hidden; }
+
+.banner {
+  max-width: 100%; }
+
 body {
   background-color: #FEFEFE;
   margin: 0; }
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px; }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-align: center; }
