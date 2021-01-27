@@ -26,6 +26,9 @@
       color: #BA7768; }
     nav.primary-navigation li:hover {
       cursor: pointer; }
+    nav.primary-navigation li a img {
+      width: 18px;
+      height: auto; }
     nav.primary-navigation ul li ul {
       padding: 0;
       list-style-type: none;
@@ -100,6 +103,9 @@
       color: black; }
     nav.primary-navigation li a:hover {
       color: #BA7768; }
+    nav.primary-navigation li a img {
+      width: 18px;
+      height: auto; }
     nav.primary-navigation li:hover {
       cursor: pointer; }
     nav.primary-navigation ul li ul {
