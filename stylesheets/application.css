@@ -37,10 +37,9 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px; }
 
-a.active, a:hover {
-  background: #EBCCC2;
-  -webkit-transition: .5s;
-  transition: .5s; }
+a:hover, a.active {
+  background: none;
+  color: #BA7768; }
 
 .checkbtn {
   font-size: 30px;
@@ -83,7 +82,7 @@ a.active, a:hover {
     font-size: 20px; }
   a:hover, a.active {
     background: none;
-    color: #EBCCC2; }
+    color: #BA7768; }
   #check:checked ~ ul {
     left: 0; } }
 
