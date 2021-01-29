@@ -132,13 +132,13 @@ section {
     .footer .left {
       text-align: left;
       float: left;
-      margin-left: 8%;
+      margin-left: 15%;
       padding-top: 30px;
       color: white; }
     .footer .right {
       float: right;
       text-align: right;
-      margin-right: 8%;
+      margin-right: 15%;
       padding-top: 30px;
       color: white; }
     .footer .centered {
@@ -204,8 +204,8 @@ h1 {
   padding-bottom: 30px; }
 
 .body {
-  margin-right: 8%;
-  margin-left: 8%; }
+  margin-right: 15%;
+  margin-left: 15%; }
 
 ul {
   font-family: 'Raleway', sans-serif;
