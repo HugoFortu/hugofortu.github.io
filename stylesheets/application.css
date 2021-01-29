@@ -132,13 +132,13 @@ section {
     .footer .left {
       text-align: left;
       float: left;
-      margin-left: 100px;
+      margin-left: 8%;
       padding-top: 30px;
       color: white; }
     .footer .right {
       float: right;
       text-align: right;
-      margin-right: 100px;
+      margin-right: 8%;
       padding-top: 30px;
       color: white; }
     .footer .centered {
