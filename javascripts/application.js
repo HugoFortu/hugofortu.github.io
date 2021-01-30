@@ -4,4 +4,5 @@ if (window.matchMedia("(max-width: 1000px)").matches) {
   contact.addEventListener('click', ()=> {
       document.getElementById('check').checked = false;
       window.scroll(0,1000000);
-  })}
+  })
+}
