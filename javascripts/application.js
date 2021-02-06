@@ -6,3 +6,11 @@ if (window.matchMedia("(max-width: 1000px)").matches) {
       window.scroll(0,1000000);
   })
 }
+
+const source = document.querySelector('.source');
+
+source.addEventListener('copy', (event) => {
+    const selection = document.getSelection();
+    event.clipboardData.setData('text/plain', selection.toString().toUpperCase());
+    event.preventDefault();
+});
