@@ -41,6 +41,9 @@ a:hover, a.active {
   background: none;
   color: #BA7768; }
 
+.contact {
+  cursor: pointer; }
+
 .checkbtn {
   font-size: 30px;
   color: #414141;
@@ -262,6 +265,9 @@ footer {
   .main {
     line-height: normal;
     font-size: auto; } }
+
+html {
+  scroll-behavior: smooth; }
 
 .content {
   min-height: calc(100vh - 70px); }
