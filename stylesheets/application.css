@@ -300,7 +300,7 @@ a {
 
 .content p {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #414141; }
 
 h1 {
@@ -318,7 +318,7 @@ h1 {
 ul {
   font-family: 'Raleway', sans-serif;
   color: #BA7768;
-  font-size: 22px; }
+  font-size: 26px; }
 
 @media (max-width: 420px) {
   h1 {
