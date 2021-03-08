@@ -104,32 +104,37 @@ section {
 @media (min-width: 1165px) {
   .banner-div {
     width: 100%;
-    height: 100%;
-    overflow: hidden; } }
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 70px; } }
 
 @media (max-width: 1165px) {
   .banner-div {
     width: 100%;
     height: 400px;
-    overflow: hidden; } }
+    overflow: hidden;
+    margin-bottom: 70px; } }
 
 @media (max-width: 936px) {
   .banner-div {
     width: 100%;
     height: 300px;
-    overflow: hidden; } }
+    overflow: hidden;
+    margin-bottom: 50px; } }
 
 @media (max-width: 715px) {
   .banner-div {
     width: 100%;
     height: 200px;
-    overflow: hidden; } }
+    overflow: hidden;
+    margin-bottom: 50px; } }
 
 @media (max-width: 410px) {
   .banner-div {
     width: 100%;
     height: 150px;
-    overflow: hidden; } }
+    overflow: hidden;
+    margin-bottom: 50px; } }
 
 body {
   margin: 0;
@@ -158,7 +163,7 @@ footer {
           box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font: bold 20px sans-serif;
   padding: 55px 50px;
   margin-top: 80px; }
 
@@ -192,7 +197,7 @@ footer {
 
 .footer-distributed .footer-company-name {
   color: #8f9296;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   margin: 0; }
 
@@ -219,7 +224,8 @@ footer {
   display: inline-block;
   color: #ffffff;
   vertical-align: middle;
-  margin: 0; }
+  margin: 0;
+  font-size: 18px; }
 
 .footer-distributed .footer-center p span {
   display: block;
@@ -237,14 +243,14 @@ footer {
 .footer-distributed .footer-company-about {
   line-height: 20px;
   color: #92999f;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   margin: 0; }
 
 .footer-distributed .footer-company-about span {
   display: block;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 20px; }
 
@@ -285,7 +291,8 @@ footer {
     line-height: normal;
     font-size: auto; }
   .logo-footer {
-    width: 180px; } }
+    width: 180px;
+    margin-left: 0%; } }
 
 html {
   scroll-behavior: smooth; }
@@ -298,20 +305,20 @@ body {
   margin: 0; }
 
 a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px; }
+  font-family: 'Raleway', sans-serif; }
 
-.content p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  color: #414141; }
+@media (max-width: 1000px) {
+  .content p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #414141; } }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
   text-align: center;
   color: #414141;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 30px; }
 
 .body {
@@ -342,3 +349,9 @@ ul {
   .body {
     margin-right: 8%;
     margin-left: 8%; } }
+
+@media (min-width: 1000px) {
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: #414141; } }
