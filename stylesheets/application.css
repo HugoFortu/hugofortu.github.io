@@ -144,13 +144,14 @@ body {
   line-height: 550px; }
 
 .logo-footer {
-  width: 70px; }
+  width: 220px;
+  margin-left: 8%; }
 
 footer {
   bottom: 0; }
 
 .footer-distributed {
-  background-color: #292c2f;
+  background-color: #242A2C;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-sizing: border-box;
@@ -282,7 +283,9 @@ footer {
     margin-left: 0; }
   .main {
     line-height: normal;
-    font-size: auto; } }
+    font-size: auto; }
+  .logo-footer {
+    width: 180px; } }
 
 html {
   scroll-behavior: smooth; }
