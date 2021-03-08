@@ -97,7 +97,7 @@ section {
 .banner-div {
   width: 100%;
   overflow: hidden;
-  height: 75%; }
+  height: 70vh; }
 
 .banner {
   width: 100%; }
@@ -106,7 +106,7 @@ section {
   .banner-div {
     width: 100%;
     overflow: hidden;
-    height: 75%;
+    height: 70vh;
     margin-bottom: 70px; } }
 
 @media (max-width: 1165px) {
@@ -348,7 +348,7 @@ ul {
 @media (min-width: 1000px) {
   p {
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     color: #414141; } }
 
 @media (max-width: 1000px) {
