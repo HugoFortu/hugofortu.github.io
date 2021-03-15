@@ -97,7 +97,9 @@ section {
 .banner-div {
   width: 100%;
   overflow: hidden;
-  height: 70vh; }
+  height: 70vh;
+  -webkit-box-shadow: 0 4px 2px -2px #ABABAB;
+          box-shadow: 0 4px 2px -2px #ABABAB; }
 
 .banner {
   width: 100%; }
