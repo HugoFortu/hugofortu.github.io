@@ -97,9 +97,7 @@ section {
 .banner-div {
   width: 100%;
   overflow: hidden;
-  height: 70vh;
-  -webkit-box-shadow: 0 4px 2px -2px #ABABAB;
-          box-shadow: 0 4px 2px -2px #ABABAB; }
+  height: 70vh; }
 
 .banner {
   width: 100%; }
@@ -194,9 +192,11 @@ footer {
 
 .footer-distributed .footer-links a {
   display: inline-block;
-  line-height: 1.8;
   text-decoration: none;
-  color: inherit; }
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px; }
 
 .footer-distributed .footer-company-name {
   color: #8f9296;
@@ -322,10 +322,10 @@ h1 {
   margin-right: 15%;
   margin-left: 15%; }
 
-ul {
-  font-family: 'Raleway', sans-serif;
-  color: #BA7768;
-  font-size: 26px; }
+.rosace {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 @media (max-width: 420px) {
   h1 {
@@ -338,11 +338,13 @@ ul {
   p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    color: #414141; }
+    color: #414141;
+    font-weight: 300; }
   ul {
     font-family: 'Raleway', sans-serif;
-    color: #BA7768;
-    font-size: 16px; }
+    color: #414141;
+    font-size: 16px;
+    font-weight: 300; }
   .body {
     margin-right: 8%;
     margin-left: 8%; } }
@@ -351,9 +353,16 @@ ul {
   p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    color: #414141; } }
+    color: #414141;
+    font-weight: 300; }
+  ul {
+    font-family: 'Raleway', sans-serif;
+    color: #414141;
+    font-size: 20px;
+    font-weight: 300; } }
 
 @media (max-width: 1000px) {
   .content p {
     font-family: 'Raleway', sans-serif;
-    color: #414141; } }
+    color: #414141;
+    font-weight: 300; } }
