@@ -274,7 +274,7 @@ footer {
   margin-right: 3px;
   margin-bottom: 5px; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .footer-distributed {
     font: bold 14px sans-serif; }
   .footer-distributed .footer-left,
