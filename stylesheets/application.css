@@ -228,7 +228,8 @@ footer {
   color: #ffffff;
   vertical-align: middle;
   margin: 0;
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 300; }
 
 .footer-distributed .footer-center p span {
   display: block;
@@ -273,6 +274,25 @@ footer {
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px; }
+
+@media (max-width: 420px) {
+  .footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 16px; }
+  .footer-distributed {
+    background-color: #242A2C;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 20px sans-serif;
+    padding: 55px 20px;
+    margin-top: 80px; } }
 
 @media (max-width: 1050px) {
   .footer-distributed {
